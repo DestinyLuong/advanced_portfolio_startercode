@@ -7,13 +7,14 @@
 
 /* Header CSS */
 #head{
-text-align:center;
+    text-align:center;
+    margin: 10px;
 }
 
 
 /* Section CSS */
 #body{
-    margin top: 30px;
+    margin-top: 20px;
 }
 
 
