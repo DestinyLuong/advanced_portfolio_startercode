@@ -22,7 +22,10 @@ $(document).ready( function(){
 // Create your potrfolio object representation below
 
 
-
+$(".card").click(function(){
+    $(".card").click("");
+    
+});
 
 
 
