@@ -27,6 +27,10 @@ $(".card").click(function(){
     
 });
 
+$("#day").click(function(){
+    $("index.html").html("day.html");
+});
+
 
 
 

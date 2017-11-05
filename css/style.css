@@ -3,7 +3,9 @@
     width: 100%;
     height: 55px;
     background-color: #5A81A2;
+    font-family: 'Poiret One';
 }
+
 
 /* Header CSS */
 #head{
@@ -36,6 +38,15 @@
     
 }
 
+#aboutmethree {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico';
+    font-size: 40px;
+    position: relative;
+    
+}
+
 #about{
     margin: 0px 0px 0px 300px;
     bottom: 190px;
@@ -47,7 +58,6 @@
     width: 100%;
     height: auto;
     -webkit-filter: hue-rotate(740deg);
-
 }
 
 #size{
@@ -60,7 +70,6 @@
 /* Portfolio Item CSS */
 .me{
     height: 100%;
-    
 }
 
 #imageone{
@@ -71,7 +80,7 @@
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    margin-top: 75px;
+    margin-top: 20px;
     margin-left: 50px;
     padding: 25px 80px 25px 80px;
     border-radius: 50%;
@@ -92,9 +101,26 @@
     top: 0px;
     left: 0px;
 
-    
 }
 
+#day{
+    position: relative;
+    background-color: white;
+    border-color: white;
+    color: teal;
+    margin-left: 320px;
+    margin-top: 10px;
+    font-family: 'Poiret One';
+    font-size: 20px;
+}
+
+#projects{
+    color: #5A81A2;
+    text-align: center;
+    font-family: 'Pacifico';
+    margin-top: 200px;
+    font-size: 80px;
+}
 
 /* Footer CSS */
 

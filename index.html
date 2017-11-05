@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/script.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Kumar+One+Outline|Nixie+One|Fredericka+the+Great|Tenali+Ramakrishna" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Kumar+One+Outline|Nixie+One|Fredericka+the+Great|Tenali+Ramakrishnae|Lobster|Pacifico|Quicksand" rel="stylesheet">
         
     </head>
     
@@ -29,12 +29,14 @@
                     <div class="navbar-header">              
                       <a class="navbar-brand" href="#">Destiny's Portfolio</a>
                     </div>
-                    <ul class="nav navbar-nav">        
-                      <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
+                    <div id="navitems">
+                        <ul class="nav navbar-nav">        
+                          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
        </div>
@@ -53,14 +55,17 @@
                 </div>
                 <div class="col-10">
                     <a class="thumbnail" href="#">
-                        <img id="bg" src="images/bg.gif">
+                            <img id="bg" src="images/bg.gif">
                         <div id="size">
                             <img id="me-circle" src="images/meh.jpg">
                        </div>
                        <div id="about">
                             <h1 id="aboutme">ABOUT ME</h1>
                             <p id="aboutmetwo">Hello, my name is Destiny and I am a 10th
-                            grade student in Script Ed</p>
+                            grade student, currently in Script Ed. I enjoy drawing and daydreaming.</p>
+                            <p id="aboutmethree">"If there's no reason to be happy...</p>
+                            <p id="aboutmethree"> Be Happy For No Reason~"</p>
+                            <button id="day" type="button" class="btn btn-info">Start Your Daydream</button>
                         </div>
                     </a>
                 </div>
@@ -70,13 +75,22 @@
             </div>
             
            
+            <div class="row">
+                <div class="col-sm-1">
+                    
+                </div>
+                <div class="col-sm-3">
+                   <h1 id="projects">Project</h1>
+                </div>
+            </div>
+            
             <!-- Thumbnail -->
             <div class="row" id="thumbnails">
-                
                 <div class="col-sm-3" class="img-thumbnail">
                    <div class="card" style="width: 20rem;">
                       <img class="card-img-top" src="images/EarthSim.png" alt="Card image cap">
                       <div class="card-body">
+                         <p class="card-text">Some</p>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
@@ -85,9 +99,10 @@
                 <!-- Thumbnail 2 -->
                 <div class="col-sm-3" class="img-thumbnail">
                     <div class="card" style="width: 20rem;">
-                      <img class="card-img-top" src="images/EarthSim.png" alt="Card image cap">
+                      <img class="card-img-top" src="images/game.png" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some</p>
+                        <p class="card-text"> quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                 </div>
@@ -97,6 +112,7 @@
                     <div class="card" style="width: 20rem;">
                       <img class="card-img-top" src="images/EarthSim.png" alt="Card image cap">
                       <div class="card-body">
+                        <p class="card-text">Some</p>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
@@ -108,6 +124,7 @@
                     <div class="card" style="width: 20rem;">
                       <img class="card-img-top" src="images/EarthSim.png" alt="Card image cap">
                       <div class="card-body">
+                        <p class="card-text">Some</p>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
