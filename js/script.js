@@ -1,5 +1,3 @@
-$(document).ready( function(){
-    
 
 //Unit 4 Portfolio with Object
 // Class 1 
@@ -21,17 +19,20 @@ $(document).ready( function(){
 
 // Create your potrfolio object representation below
 
-
-$(".card").click(function(){
-    $(".card").click("");
+$(document).ready(function(){
     
+    $("#colone").hover(function(){
+        $("#colone").removeClass('col-sm-4').addClass('col-sm-3');
+    
+    $("#coltwo").hover(function(){
+        $("#coltwo").hide();
+    });
+    
+    $("#colthree").hover(function(){
+        $("#colthree").removeClass('col-sm-4').addClass('col-sm-3');
+    });
+
 });
-
-$("#day").click(function(){
-    $("index.html").html("day.html");
-});
-
-
 
 
 // Use Jquery to update your HTML using your object. Don't forget the Document Ready function. 
@@ -43,4 +44,3 @@ $("#day").click(function(){
 
 
 // Add your click handler below to update your like counters when the like buttons are clicked. 
-});
