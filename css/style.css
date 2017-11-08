@@ -91,7 +91,8 @@
 #thumbnails{
     margin-top: 75px;
     font-family: 'Poiret One';
-
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #over{
@@ -110,8 +111,8 @@
     background-color: white;
     border-color: white;
     color: teal;
-    margin-left: 360px;
-    margin-top: 10px;
+    margin-left: 45%;
+    margin-top: 1%;
     font-family: 'Poiret One';
     font-size: 20px;
 }
@@ -120,12 +121,13 @@
     color: #5A81A2;
     text-align: center;
     font-family: 'Pacifico';
-    margin-top: 100px;
+    margin-top: 85%;
     font-size: 80px;
 }
 
 #media{
-    top: 170px;
+    margin-top: 30%;
+    width: 90%;
 }
 
 #colone{
